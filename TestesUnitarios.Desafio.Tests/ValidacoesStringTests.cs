@@ -52,7 +52,8 @@ public class ValidacoesStringTests
         //TODO: Corrigir o Assert.False com base no retorno da chamada ao método
         Assert.False(resultado);
     }
-
+    
+    [Fact]
     //TODO: Corrigir a anotação [Fact]
     public void TextoDeveTerminarComAPalavraProcurado()
     {
